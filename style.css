@@ -1,0 +1,395 @@
+* {
+margin : 0;
+padding : 0;
+}
+body {
+padding-top : 0;
+font : 20px "Trebuchet MS", verdana, arial, sans-serif;
+background : #333;
+color : #000;
+}
+
+
+			/*WRAP*/
+#wrapper {
+width : 100%
+margin : 0 auto;
+border : 5px solid #fff;
+background : #eee url(img/sidebar.gif) repeat-y;
+color : #666;
+}
+
+
+
+
+			/*HEADER*/
+#header {
+width : 100%;
+height : 120px;
+margin : 0;
+background-image : url("index/headerimage.jpg");
+color : #666;
+}
+#banner {
+width : 100%;
+height : 100px;
+margin : 0;
+padding : 0;
+border-bottom : 1px solid #fff;
+background-image : url("index/banner.png"); : #369;
+background-repeat: repeat;
+background-size : 100%;
+}
+#banner a {
+margin : 5px;
+color : #fff;
+background : inherit;
+}
+#banner a:hover {
+color : #000;
+background : inherit;
+}
+
+
+
+				/*MAIN MENU*/
+#mainmenu {
+width : 100%;
+border-top : 2px solid #4F7942;
+border-bottom : 2px solid #4F7942;
+background-color : #AFE1AF;
+}
+#mainmenu li {
+display : inline-block;
+padding : 5px;
+margin : 10px;
+color : black;
+}
+#mainmenu a {
+text-decoration : none;
+color : black;
+
+}
+#mainmenu a:hover {
+border : 2px solid #0000CD;
+padding : 5px;
+cursor : pointer;
+}
+#mainmenu a:active {
+padding : 5px;
+border : 2px solid #0000CD;
+}
+
+
+
+
+
+
+
+
+					/*CONTENT*/
+#content {
+width : 100%;
+margin : 0;
+line-height : 1.8em;
+}
+
+#index-div-box {
+float : left;
+width : 450px;
+height : 450px;
+margin : 40px 10px;
+outline : 3px solid #AFE1AF;
+border-radius : 5px;
+}
+
+#event-box {
+width : 20%;
+margin : 20px;
+diplay : inline-block;
+float : left;
+background-color : white;
+border : 1px solid #4F7942;
+border-radius : 5px;
+}
+#event-box th {
+background-color : #4F7942;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: bold;
+color : white;
+margin : 3px;
+font-align : center;
+}
+
+#principles {
+display : block;
+width : 70%;
+margin-left : 5%;
+}
+
+#capital-allocation {
+display : block;
+margin : 20px;
+color : black;
+}
+#capital-allocation th {
+font-weight : bold;
+padding : 5px;
+background-color : #4F7942;
+}
+#capital-allocation td {
+padding : 5px;
+border-bottom : 2px solid #4F7942;
+}
+
+
+
+
+
+#profit table {
+margin-left : 10px;
+width : 80%;
+color : black;
+text-align : left;
+}
+#profit th {
+background : #AFE1AF;
+padding-left : 5px;
+}
+#profit td {
+border : 1px solid #AFE1AF;
+padding-left : 10px;
+}
+					/*FOOTER*/
+#footer {
+clear : both;
+width : 100%;
+padding-left : 5px;
+color : black;
+border-top : 5px solid #4F7942;
+}
+
+					/*Box GREENMENU*/
+#greenmenu {
+margin : 10px;
+width : 100%;
+font-size : 100%;
+text-align : left;
+}
+
+#greenmenu li {
+display : inline-block;
+width : 200px;
+float : left;
+margin : 5px;
+border : 1px solid #4F7942;
+}
+#greenmenu a {
+display : block;
+padding: 5px;
+text-decoration : none;
+background-color: #fff;
+color:#000;
+border : 1px solid #4F7942;
+}
+#greenmenu a:hover {
+background-color : #AFE1AF;
+color : #000;
+border : 1px solid #4F7942;
+}
+
+					/*Box GREENMENUvert*/
+#greenmenuvert {
+margin : 10px;
+width : 95%;
+font-size : 12px;
+text-align : left;
+}
+
+#greenmenuvert li {
+display : inline-block;
+width : 200px;
+margin : 10px 5px 10px 5px;
+border : 1px solid #4F7942;
+}
+
+#greenmenuvert a {
+display : block;
+padding: 3px;
+text-decoration : none;
+background-color: #fff;
+color:#000;
+border : 1px solid #4F7942;
+}
+#greenmenuvert a:hover {
+background-color : #AFE1AF;
+color : #000;
+border : 1px solid #4F7942;
+}
+#greenmenuvert h5 {
+margin : 0;
+padding : 9;
+font-size : 100%;
+letter-spacing : 0;
+text-transform : none;
+color : black;
+background : inherit;
+}
+#greenmenuvert p {
+margin : 0;
+padding : 3px;
+}
+
+			/*NYSE*/
+#vix-strategies table {
+width : 98%;
+background-color : #AFE1AF;
+margin : 5px;
+}
+#vix-strategies th {
+padding : 5px;
+color : white;
+background-color : #4F7942;
+font-size : 14px;
+font-weight : bold;
+}
+#vix-strategies td {
+color : black;
+font-sixe : 12px;
+padding : 5px;
+border-right : 1px solid #4F7942;
+text-align : justify;
+}
+
+#thoughts li {
+color : #b22222;
+font-size : 14px;
+}
+
+
+
+
+#stclist {
+margin : 5px 10px 20px 10px;;
+width : 100%;
+font-size : 14px;
+text-align : left;
+}
+#stclist li {
+display : inline-block;
+width : auto;
+margin : 3px;
+border : 1px solid #4F7942;
+padding: 3px;
+background-color: #fff;
+color:#000;
+}
+
+              /*HOLIDAYS*/
+#nyseholidays table {
+width : 80%;
+font-size : 14px;
+color : black;
+margin : 10px 20px 40px 20px;
+}
+#nyseholidays td {
+border-bottom : 1px solid #4F7942;
+padding : 3px 10px 3px 3px;
+}
+
+
+
+			/*TYPOGRAPHY*/
+p {
+margin : 10px 20px 10px 15px;
+color : #666;
+background-color : inherit;
+}
+h1 {
+margin : 0;
+padding : 20px;
+font-size : 300%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+h2 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 120%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #045FB4;
+background : inherit;
+}
+h3 {
+margin : 10px 0 10px 15px;
+padding : 0 0 3px 3px;
+text-transform : uppercase;
+font-size : 120%;
+letter-spacing : 5px;
+color : #036;
+background : inherit;
+}
+h4 {
+margin : 10px 0 10px 10px;
+padding : 0 0 0px 0px;
+letter-spacing : 2px;
+color : black;
+font-size : 20px;
+clear : both;
+}
+h5 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 70%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #045FB4;
+background : inherit;
+}
+blockquote {
+margin : 10px 20px 10px 15px;
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+			/*CLASS*/
+.img {
+margin : 0 0 10px 0;
+}
+
+.imgmare {
+display: block;
+padding: 5px;
+margin-left: auto;
+margin-right: auto;
+}
+.myborder {
+border : 1px solid #fff;
+padding : 5px;
+margin : 0 0 0 4px;
+}
+.myimg {
+float : left;
+border : 1px solid #eee;
+padding : 5px;
+margin : 5px 10px 10px 4px;
+}
+.mylogo {
+margin-right : auto;
+}
+			/*LINKS*/
+a, a:visited {
+text-decoration : none;
+color : #369;
+background : inherit;
+}
+a:hover {
+color : #333;
+background : inherit;
+}
+a img {
+border : none;
+}
