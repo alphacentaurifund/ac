@@ -66,9 +66,9 @@ border : 2px solid #0000CD;
 padding : 5px;
 cursor : pointer;
 }
-#mainmenu a:active {
-padding : 5px;
-border : 2px solid #0000CD;
+#mainmenu a.this-page {
+border-bottom : 3px solid #4F7942;
+font-weight : bold;
 }
 
 
@@ -92,7 +92,24 @@ height : 450px;
 background : white;
 margin : 40px 10px;
 outline : 3px solid #AFE1AF;
-border-radius : 5px;
+border-radius : 5px
+}
+a.investors-link {
+display : block;
+width : auto;
+margin : 20px;
+padding : 5px;
+color : white;
+text-decoration : none;
+font-weight : bold;
+background-color : #800020;
+border-radius : 10px;
+}
+a.investors-link:hover {
+background : #800020;
+color : white;
+border : 3px solid white;
+outline : 3px solid #800020;
 }
 
 #event-box {
@@ -259,7 +276,13 @@ font-weight : bold;
 font-style : italic;
 color : #b29b35;
 }
+
+
+
+
 			/*CLASS*/
+
+
 .img {
 margin : 0 0 10px 0;
 }
@@ -277,4 +300,7 @@ background : inherit;
 }
 a img {
 border : none;
+}
+
+
 }
