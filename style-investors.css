@@ -82,7 +82,7 @@ font-weight : bold;
 					/*CONTENT*/
 #content {
 width : 100%;
-margin : 0;
+margin-left : 3%;
 line-height : 1.8em;
 }
 
@@ -92,7 +92,7 @@ width : 800px;
 height : auto;
 margin : 40px 10px;
 }
-#index-div-box h4 {
+#index-div-box h3 {
 text-decoration : underline;
 }
 
@@ -124,46 +124,13 @@ margin : 30px 3%;
 border-top : 1px solid white;
 border-bottom : 1px solid white;
 }
-
-#principles {
-display : block;
-width : 70%;
-margin-left : 5%;
-}
-
-#capital-allocation {
-display : block;
-margin : 20px;
-color : black;
-}
-#capital-allocation th {
-font-weight : bold;
-padding : 5px;
-background-color : #4F7942;
-}
-#capital-allocation td {
-padding : 5px;
-border-bottom : 2px solid #4F7942;
+#investors-table td {
+width : auto;
+padding : 0 10px;
 }
 
 
 
-
-
-#profit table {
-margin-left : 10px;
-width : 80%;
-color : black;
-text-align : left;
-}
-#profit th {
-background : #AFE1AF;
-padding-left : 5px;
-}
-#profit td {
-border : 1px solid #AFE1AF;
-padding-left : 10px;
-}
 
 
 
@@ -180,34 +147,6 @@ background-color : #AFE1AF;
 color : black;
 }
 
-					/*Box GREENMENU*/
-#greenmenu {
-margin : 10px;
-width : 100%;
-font-size : 100%;
-text-align : left;
-}
-
-#greenmenu li {
-display : inline-block;
-width : 200px;
-float : left;
-margin : 5px;
-border : 1px solid #4F7942;
-}
-#greenmenu a {
-display : block;
-padding: 5px;
-text-decoration : none;
-background-color: #fff;
-color:#000;
-border : 1px solid #4F7942;
-}
-#greenmenu a:hover {
-background-color : #AFE1AF;
-color : #000;
-border : 1px solid #4F7942;
-}
 
 
 
@@ -238,14 +177,14 @@ color : #045FB4;
 background : inherit;
 }
 h3 {
-margin : 10px 0 10px 15px;
-padding : 0 0 3px 3px;
-text-transform : uppercase;
+margin : 10px 0 10px 10px;
+padding : 0 0 0px 0px;
+letter-spacing : 2px;
+color : white;
 font-size : 120%;
-letter-spacing : 5px;
-color : #036;
-background : inherit;
+clear : both;
 }
+
 h4 {
 margin : 10px 0 10px 10px;
 padding : 0 0 0px 0px;
@@ -275,21 +214,6 @@ color : white;
 
 
 			/*CLASS*/
-.img {
-margin : 0 0 10px 0;
-}
 
 .
-			/*LINKS*/
-a, a:visited {
-text-decoration : none;
-color : #369;
-background : inherit;
-}
-a:hover {
-color : #333;
-background : inherit;
-}
-a img {
-border : none;
-}
+
