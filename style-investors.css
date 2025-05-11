@@ -86,15 +86,16 @@ margin-left : 3%;
 line-height : 1.8em;
 }
 
-#index-div-box {
+#investors-div-box {
 float : left;
 width : 800px;
 height : auto;
 margin : 40px 10px;
 }
-#index-div-box h3 {
+#investors-div-box h3 {
 text-decoration : underline;
 }
+
 
 #event-box {
 width : 300px;
@@ -119,16 +120,76 @@ font-align : center;
 color : black;
 }
 
+#investors-intro {
+width : 100%;
+margin : 100px auto 40px auto;
+color : white;
+text-align : center;
+background-color : #000015;
+border-top : 3px solid red;
+border-bottom : 3px solid red;
+}
+#investor-intro td {
+padding : 30px 30px 0 30px;
+font-size : 16px;
+vertical-align : top;
+}
+#investors-intro p {
+padding : 15px 30px;
+}
+a.investors-link {
+display : block;
+width : 400px;
+margin : 0;
+margin : 0;
+padding : 5px;
+color : white;
+text-decoration : none;
+font-weight : bold;
+background-color : #800020;
+border : 1px solid red;
+border-radius : 10px;
+}
+a.investors-link:hover {
+background : #800020;
+color : white;
+border : 3px solid white;
+outline : 3px solid #800020;
+}
+
+
 #investors-table {
 margin : 30px 3%;
-border-top : 1px solid white;
-border-bottom : 1px solid white;
+border-top : 1px solid red;
+border-bottom : 1px solid red;
+background-color : #000015;
 }
 #investors-table td {
 width : auto;
 padding : 0 10px;
 }
 
+#earnings-table {
+display : block;
+width : 60%;
+margin : 40px auto 40px 3%;
+background-color : #000015;
+border-top : 3px solid red;
+border-bottom : 3px solid red;
+color : black;
+}
+#earnings-table th {
+background-color : #c0c0c0;
+font-weight : bold;
+font-size : 20px;
+}
+#earnings-table td {
+font-size : 16px;
+align-text : top;
+padding-left : 5px;
+padding-right : 100px;
+color : white;
+}
 
 
 
@@ -140,8 +201,9 @@ padding : 0 10px;
 clear : both;
 width : 100%;
 padding-left : 5px;
-border-top : 5px solid #4F7942;
-background-color : #AFE1AF;
+color : white;
+border-top : 5px solid black;
+background : #696969;
 }
 #footer p {
 color : black;
@@ -177,14 +239,11 @@ color : #045FB4;
 background : inherit;
 }
 h3 {
-margin : 10px 0 10px 10px;
-padding : 0 0 0px 0px;
-letter-spacing : 2px;
+margin : 30px 50px 10px 30px;
+text-transform : uppercase;
+font-size : 32px;
 color : white;
-font-size : 120%;
-clear : both;
 }
-
 h4 {
 margin : 10px 0 10px 10px;
 padding : 0 0 0px 0px;
@@ -194,12 +253,9 @@ font-size : 20px;
 clear : both;
 }
 h5 {
-margin : 0 0 0 15px;
+margin : 5px 50px 50px 30px;
 padding : 0;
-font-size : 70%;
-letter-spacing : 5px;
-text-transform : uppercase;
-color : #045FB4;
+font-size : 20px;;
 background : inherit;
 }
 blockquote {

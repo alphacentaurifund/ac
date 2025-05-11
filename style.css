@@ -14,9 +14,10 @@ color : #000;
 #wrapper {
 width : 100%
 margin : 0 auto;
-border : 5px solid #fff;
-background : #fafafa;
-color : #666;
+background : url("backgrounds/background-darkened.jpg");
+background-size : contain;
+background-attachment : fixed;
+color : white;
 }
 
 
@@ -85,11 +86,30 @@ line-height : 1.8em;
 }
 
 #home-title-box {
-width : 100%;
-height : 450px;
-margin : 20px auto;
-background : white;
-margin : 40px 10px;
+width : 70%;
+height : auto;
+margin : 20px auto 50px auto;
+}
+#home-title-box p {
+font-size : 18px;
+color : white;
+}
+
+
+#about table {
+display : block;
+max-width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+#about td {
+text-align : center;
+color : white;
+font-size : 16px;
+}
+#about p {
+padding : 5px 60px;
+color : white;
 }
 a.investors-link {
 display : block;
@@ -100,6 +120,7 @@ color : white;
 text-decoration : none;
 font-weight : bold;
 background-color : #800020;
+border : 1px solid red;
 border-radius : 10px;
 }
 a.investors-link:hover {
@@ -109,54 +130,66 @@ border : 3px solid white;
 outline : 3px solid #800020;
 }
 
-#index-div-box {
+#index-div-box ul {
 width : 100%;
 padding : 5%;
 }
 #index-div-box li {
+display : inline-block;
 float : left;
 width : 450px;
-height : 450px;
-background : white;
+height : 350px;
+background : #000015;
+border : 1px solid white;
+border-radius : 5px;
 margin : 20px;
-border-left : 3px solid #4F7942;
+color : white;
+}
+#index-div-box h4 {
+color : white;
+margin-left : 10px;
+}
+#index-div-box img {
+display : block;
+margin-left : auto;
+margin-right : auto;
 }
 
 #interesting-banner {
-width : 100%;
-height : 500px;
-background : #d3d3d3;
+width : 90%;
+height : auto;
+margin-left : auto;
+margin-right : auto;
 }
 #interesting-banner li {
 display : inline-block;
 float : left;
-width : 450px;
-height : 450px;
-background : white;
+width : 430px;
+height : 300px;
 margin : 20px;
-border : 3px solid #AFE1AF;
-border-radius : 5px
+background : none;
+border : none;
+}
+#interesting-banner h4 {
+color : white;
+}
+#interesting-banner p {
+color : white;
 }
 #interesting-banner a {
 display : inline-block;
-width : 200px;
-padding : 5px;
-color : black;
+width : auto;
+padding : 5px 20px;
+color : white;;
 text-decoration : none;
 float : left;
 margin : 5px;
-border : 1px solid #4F7942;
+background : #800020;
+border : 1px solid red;
 }
-#legal-div-box {
-display : inline-block;
-float : left;
-width : 450px;
-height : 450px;
-background : white;
-margin : 20px;
-border : 3px solid #AFE1AF;
-border-radius : 5px
-}
+
+
+
 .benchmarking {
 font-size : 85%;
 line-height : 1.5em;	
@@ -166,8 +199,39 @@ line-height : 1.5em;
 display : block;
 width : 60%;
 height : auto;
+margin : 40px auto 40px auto;
+}
+#legal-intro img {
+border : 3px solid red;
+border-radius : 10px;
+}
+
+#legal-content {
+display : block;
+width : 90%;
 margin-left : auto;
 margin-right : auto;
+}
+#legal-content h4 {
+margin : 40px 100px 5px 0;
+}
+
+#legal-div-box {
+display : inline-block;
+float : left;
+width : 450px;
+height : 450px;
+background : #000015;
+margin : 20px;
+border : 1px solid white;
+border-radius : 5px;
+}
+#legal-div-box h4 {
+color : white;
+margin : 10px;
+}
+#legal-div-box p {
+color : white;
 }
 
 #event-box {
@@ -189,45 +253,68 @@ margin : 3px;
 font-align : center;
 }
 
+#strategy-div-box {
+display : inline-block;
+float : left;
+width : 450px;
+height : 320px;
+background : #000015;
+margin : 20px;
+border : 1px solid white;
+border-radius : 5px;
+}
+#strategy-div-box h4 {
+color : white;
+margin : 10px;
+}
+#strategy-div-box p {
+color : white;
+}
+
 #principles {
 display : block;
 width : 70%;
 margin-left : 5%;
 }
+#principles p {
+color : white;
+}
 
-#capital-allocation {
+#country {
 display : block;
-margin : 20px;
-color : black;
-}
-#capital-allocation th {
-font-weight : bold;
-padding : 5px;
-background-color : #4F7942;
-}
-#capital-allocation td {
-padding : 5px;
-border-bottom : 2px solid #4F7942;
-}
-
-
-
-
-
-#profit table {
-margin-left : 10px;
 width : 80%;
-color : black;
-text-align : left;
+margin : 40px auto;
+background-color : #000015;
+border-top : 3px solid red;
+border-bottom : 3px solid red;
 }
-#profit th {
-background : #AFE1AF;
-padding-left : 5px;
+#country h4 {
+color : white;
+margin : 20px;
 }
-#profit td {
-border : 1px solid #AFE1AF;
-padding-left : 10px;
+#country p {
+color : white;
 }
+#country img {
+margin : 10px 30px 10px 10px;
+}
+#country a {
+display : inline-block;
+width : auto;
+padding : 5px 20px;
+color : white;
+text-decoration : none;
+float : left;
+margin : 10px;
+background : #800020;
+border : 1px solid red;
+}
+#country a:hover {
+cursor : pointer;
+}
+
+
+
 
 
 
@@ -237,42 +324,14 @@ padding-left : 10px;
 clear : both;
 width : 100%;
 padding-left : 5px;
-color : black;
-border-top : 5px solid #4F7942;
-background : #AFE1AF;
+color : white;
+border-top : 5px solid black;
+background : #696969;
 }
 #footer p {
 color : black;
 }
 
-					/*Box GREENMENU*/
-#greenmenu {
-margin : 10px;
-width : 100%;
-font-size : 100%;
-text-align : left;
-}
-
-#greenmenu li {
-display : inline-block;
-width : 200px;
-float : left;
-margin : 5px;
-border : 1px solid #4F7942;
-}
-#greenmenu a {
-display : block;
-padding: 5px;
-text-decoration : none;
-background-color: #fff;
-color:#000;
-border : 1px solid #4F7942;
-}
-#greenmenu a:hover {
-background-color : #AFE1AF;
-color : #000;
-border : 1px solid #4F7942;
-}
 
 
 
@@ -303,29 +362,21 @@ text-decoration : underline;
 clear : both;
 }
 h3 {
-margin : 10px 0 10px 15px;
-padding : 0 0 3px 3px;
+margin : 30px 50px 10px 30px;
 text-transform : uppercase;
-font-size : 120%;
-letter-spacing : 5px;
-color : #036;
-background : inherit;
+font-size : 32px;
+color : white;
 }
 h4 {
-margin : 10px 0 10px 10px;
 padding : 0 0 0px 0px;
 letter-spacing : 2px;
-color : black;
 font-size : 120%;
 clear : both;
 }
 h5 {
-margin : 0 0 0 15px;
+margin : 5px 50px 50px 30px;
 padding : 0;
-font-size : 70%;
-letter-spacing : 5px;
-text-transform : uppercase;
-color : #045FB4;
+font-size : 20px;;
 background : inherit;
 }
 blockquote {
