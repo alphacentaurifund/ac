@@ -143,11 +143,13 @@ background : #000015;
 border : 1px solid white;
 border-radius : 5px;
 margin : 20px;
-color : white;
 }
 #index-div-box h4 {
 color : white;
 margin-left : 10px;
+}
+#index-div-box p {
+color : white;
 }
 #index-div-box img {
 display : block;
@@ -155,11 +157,8 @@ margin-left : auto;
 margin-right : auto;
 }
 
-#interesting-banner {
-width : 90%;
-height : auto;
-margin-left : auto;
-margin-right : auto;
+#interesting-banner ul {
+width : 100%;
 }
 #interesting-banner li {
 display : inline-block;
@@ -190,11 +189,6 @@ border : 1px solid red;
 
 
 
-.benchmarking {
-font-size : 85%;
-line-height : 1.5em;	
-}
-
 #legal-intro {
 display : block;
 width : 60%;
@@ -208,9 +202,7 @@ border-radius : 10px;
 
 #legal-content {
 display : block;
-width : 90%;
-margin-left : auto;
-margin-right : auto;
+width : 100%;
 }
 #legal-content h4 {
 margin : 40px 100px 5px 0;
@@ -220,7 +212,7 @@ margin : 40px 100px 5px 0;
 display : inline-block;
 float : left;
 width : 450px;
-height : 450px;
+height : auto;
 background : #000015;
 margin : 20px;
 border : 1px solid white;
@@ -283,7 +275,9 @@ color : white;
 #country {
 display : block;
 width : 80%;
+height : auto;
 margin : 40px auto;
+padding-bottom : 100px;
 background-color : #000015;
 border-top : 3px solid red;
 border-bottom : 3px solid red;

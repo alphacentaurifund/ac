@@ -125,13 +125,13 @@ width : 100%;
 margin : 100px auto 40px auto;
 color : white;
 text-align : center;
+font-size : 16px;
 background-color : #000015;
 border-top : 3px solid red;
 border-bottom : 3px solid red;
 }
 #investor-intro td {
 padding : 30px 30px 0 30px;
-font-size : 16px;
 vertical-align : top;
 }
 #investors-intro p {
