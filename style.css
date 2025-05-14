@@ -3,7 +3,9 @@ margin : 0;
 padding : 0;
 }
 body {
+width : 100vw;
 padding-top : 0;
+box-sizing : border-box;
 font : 20px "Trebuchet MS", verdana, arial, sans-serif;
 background : #333;
 color : #000;
@@ -13,7 +15,7 @@ color : #000;
 			/*WRAP*/
 #wrapper {
 width : 100%
-margin : 0 auto;
+margin : 0;
 background : url("backgrounds/background-darkened.jpg");
 background-size : contain;
 background-attachment : fixed;
@@ -28,17 +30,15 @@ color : white;
 width : 100%;
 height : auto;
 margin : 0;
-background-image : url("index/headerimage.jpg");
 color : #666;
 }
 #banner {
 width : 100%;
-height : 120px;
+height : 240px;
 margin : 0;
 padding : 0;
-border-bottom : 1px solid #fff;
-background-image : url("index/banner.png"); : #369;
-background-repeat: repeat;
+background-image : url("backgrounds/banner-image.jpeg");;
+background-repeat: no-repeat;
 background-size : cover;
 }
 
@@ -54,10 +54,11 @@ background-color : #AFE1AF;
 #mainmenu li {
 display : inline-block;
 padding : 5px;
-margin : 10px;
+margin : 10px 20px;
 color : black;
 }
 #mainmenu a {
+font-size : 20px;
 text-decoration : none;
 color : black;
 }
@@ -70,9 +71,6 @@ cursor : pointer;
 border-bottom : 3px solid #4F7942;
 font-weight : bold;
 }
-
-
-
 
 
 
@@ -319,8 +317,8 @@ clear : both;
 width : 100%;
 padding-left : 5px;
 color : white;
-border-top : 5px solid black;
-background : #696969;
+border-top : 5px solid #4F7942;
+background : #AFE1AF;
 }
 #footer p {
 color : black;
