@@ -159,6 +159,49 @@ outline : 3px solid #800020;
 }
 
 
+
+#index-div-box ul {
+width : 100%;
+padding : 5%;
+clear : both;
+}
+#index-div-box li {
+display : inline-block;
+float : left;
+width : 450px;
+height : 350px;
+background : #000015;
+border : 1px solid white;
+border-radius : 5px;
+margin : 20px;
+}
+#index-div-box .become-alpha {
+background-image : url("investors/become-alpha-background.png");
+background-size : 450px;
+}
+#index-div-box .golden-alphas {
+background-image : url("investors/golden-alphas-background.png");
+background-size : 450px;
+}
+#index-div-box h3 {
+color : white;
+margin : 10px;
+font-size : 40px;
+line-height : 1.3em;
+}
+#index-div-box h4 {
+color : white;
+margin-left : 10px;
+}
+#index-div-box p {
+color : white;
+}
+#index-div-box img {
+display : block;
+margin-left : auto;
+margin-right : auto;
+}
+
 #investors-table {
 margin : 30px 3%;
 border-top : 1px solid red;
@@ -220,7 +263,7 @@ color : black;
 p {
 margin : 10px 20px 10px 15px;
 color : white;
-background-color : inherit;
+background-color : none;
 }
 h1 {
 margin : 0;

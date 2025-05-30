@@ -111,7 +111,7 @@ color : white;
 }
 a.investors-link {
 display : block;
-width : 400px;
+width : 390px;
 margin : 20px;
 padding : 5px;
 color : white;
@@ -223,6 +223,31 @@ margin : 10px;
 #legal-div-box p {
 color : white;
 }
+
+#risk-management {
+width : 100%;
+margin : 100px auto 40px auto;
+color : white;
+text-align : center;
+font-size : 16px;
+background-color : #000015;
+border-top : 3px solid red;
+border-bottom : 3px solid red;
+}
+#risk-management td {
+padding : 20px 30px;
+vertical-align : top;
+}
+#risk-management h4 {
+text-transform : uppercase;
+font-size : 32px;
+margin-top : 20px;
+}
+#risk-management p {
+padding : 15px 30px;
+color : white;
+}
+
 
 #event-box {
 width : 20%;
