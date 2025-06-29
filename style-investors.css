@@ -161,9 +161,11 @@ outline : 3px solid #800020;
 
 
 #index-div-box ul {
+display : block;
 width : 100%;
 padding : 5%;
 clear : both;
+margin-bottom : 360px;
 }
 #index-div-box li {
 display : inline-block;
@@ -216,7 +218,9 @@ padding : 0 10px;
 #earnings-table {
 display : block;
 width : 60%;
-margin : 40px auto 40px 3%;
+margin-left : 3%;
+margin-top : 10px;
+margin-bottom : 60px;
 background-color : #000015;
 border-top : 3px solid red;
 border-bottom : 3px solid red;
