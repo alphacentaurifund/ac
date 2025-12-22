@@ -200,17 +200,19 @@ border-radius : 10px;
 
 #legal-content {
 display : block;
-width : 100%;
+width : 95%;
+margin-left : auto;
+margin-right : auto;
 }
-#legal-content h4 {
-margin : 40px 100px 5px 0;
-}
+
+
+
 
 #legal-div-box {
 display : inline-block;
 float : left;
 width : 450px;
-height : auto;
+height : 430px;
 background : #000015;
 margin : 20px;
 border : 1px solid white;
@@ -219,9 +221,11 @@ border-radius : 5px;
 #legal-div-box h4 {
 color : white;
 margin : 10px;
+font-size : 32px;
 }
 #legal-div-box p {
 color : white;
+font-size : 24px;
 }
 
 #risk-management {
@@ -294,6 +298,39 @@ margin-left : 5%;
 #principles p {
 color : white;
 }
+#principles h4 {
+font-size : 32px;
+text-decoration : underline;
+padding : 0 0 0 40px;
+}
+#principles p {
+font-size : 24px;
+}
+
+#components {
+display : block;
+width : 95%;
+margin-left : auto;
+margin-right : auto;
+margin-bottom : 60px;
+background-color : #000015;
+border-top : 3px solid red;
+border-bottom : 3px solid red;
+}
+#components th {
+font-size : 32px;
+font-weight : bold;
+background : #71797E;
+padding : 10px 30px;
+}
+#components td {
+font-size : 24px;
+color : white;
+vertical-align : center;
+padding : 30px 30px;
+}
+
+
 
 #country {
 display : block;
@@ -305,6 +342,9 @@ background-color : #000015;
 border-top : 3px solid red;
 border-bottom : 3px solid red;
 }
+
+
+
 #country h4 {
 color : white;
 margin : 20px;
