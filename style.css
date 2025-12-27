@@ -371,6 +371,31 @@ cursor : pointer;
 }
 
 
+#laws {
+width : 95%;
+margin-left : auto;
+margin-right : auto;
+}
+#laws li {
+display : inline-block;
+float : left;
+width : 500;
+height : 500;
+background : #000015;
+margin : 20px;
+border : 1px solid white;
+border-radius : 5px;
+}
+#laws h4 {
+color : white;
+margin : 10px;
+font-size : 32px;
+}
+#laws p {
+color : white;
+font-size : 24px;
+}
+
 
 
 

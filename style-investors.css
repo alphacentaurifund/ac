@@ -210,10 +210,21 @@ border-top : 1px solid red;
 border-bottom : 1px solid red;
 background-color : #000015;
 }
+#investors-table h4 {
+text-transform : uppercase;
+font-size : 32px;
+margin-top : 20px;
+}
 #investors-table td {
 width : auto;
 padding : 0 10px;
 }
+#investors-table img {
+margin-left : auto;
+margin-right : auto;
+padding : 20px;
+}
+
 
 #earnings-table {
 display : block;
